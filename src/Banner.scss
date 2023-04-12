@@ -1,0 +1,27 @@
+.banner {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    @media (max-width: 768px) {
+      height: 60px;
+    }
+  }
+  
+  .banner__title {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    @media (max-width: 768px) {
+        margin-bottom: 35px;
+        font-size: 25px;
+      }
+  }
